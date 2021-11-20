@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    margin: 0px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer {
+    display: flex;
+}
+
+.video {
+    width: 33.33%;
+    align-items: left;
+}
+
+.gambar {
+    width: 33.33%;
+    padding-right: 0px;
+    justify-content: center;
+}
+
+.attachment {
+    width: 33.33%;
+    align-items: right;
+}
